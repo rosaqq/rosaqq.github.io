@@ -1,0 +1,31 @@
+@import "../node_modules/bulma/bulma"
+
+html
+  scroll-behavior: smooth
+
+%parallax
+  background-attachment: fixed
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3)
+
+#webdev
+  @extend %parallax
+  background-image: url(../img/programming.jpg)
+
+#contact
+  @extend %parallax
+  background-image: url(https://source.unsplash.com/Q1p7bh3SHj8)
+  border-top: 10px solid #8338EC
+
+.message
+  text-shadow: none
+
+  p
+    @extend .is-size-6
+    @extend .has-text-dark
+
+.tech-list
+  list-style: disc

@@ -1,10 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <!-- scripts, css, etc -->
+    <link rel="stylesheet" href="css/main.css">
 
+    <!-- meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+
+    <title>Tiago Rosa</title>
+</head>
+
+<body class="has-navbar-fixed-top">
+    <nav class="navbar is-dark is-fixed-top">
+    <div class="navbar-brand">
+        <p class="navbar-item">
+            <svg height="30" width="100">
+                <text x="0" y="22" fill="#E97288" font-size="20">Tiago Rosa</text>
+            </svg>
+        </p>
+        <a class="navbar-burger" data-target="mainNav">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+    <div id="mainNav" class="navbar-menu">
+        <div class="navbar-start">
+            <!-- WIP <a class="navbar-item" href="index.html#programming">Programming</a> -->
+            <a class="navbar-item" href="index.html#">Web Dev</a>
+            <!-- WIP <a class="navbar-item" href="index.html#projects">Custom Projects</a> -->
+        </div>
+
+        <div class="navbar-end">
+            <a class="navbar-item" href="index.html#contact">Contact</a>
+        </div>
+    </div>
+</nav>
+
+    
+    <section id="webdev" class="hero is-fullheight is-dark">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h1 class="title is-1">The world is online.</h1>
+                    <h2 class="subtitle">
+                        What are <strong>you</strong> waiting for?
+                    </h2>
+                </div>
+                <div class="column">
+                    <h1 class="title">Past Projects</h1>
+                    <article class="message">
+                        <div class="message-header">
+                            <a href="https://icam.org.pt/">ICAM</a>
+                        </div>
+                        <div class="message-body">
+                            <p>Platform created during the first covid19 wave in Portugal to provide fast access to
+                                curated and translated cutting edge research on the novel coronavirus.</p>
+                        </div>
+                    </article>
+                    <article class="message">
+                        <div class="message-header">
+                            <a href="https://blackbird.sknv.net/">Blackbird Online</a>
+                        </div>
+                        <div class="message-body">
+                            <p>Wordpress blog dedicated to the SR-71 aircraft.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <hr>
+                    <h1 class="title is-1">Technologies</h1>
+                    <ul class="tech-list is-size-4 pl-6">
+                        <li>Static Web Design</li>
+                        <li>Wordpress</li>
+                        <li>Django</li>
+                        <li>NGINX</li>
+                        <li>PostgreSQL</li>
+                    </ul>
+                </div>
+                <div class="column">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section id="contact" class="hero is-fullheight is-dark">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <h1 class="title is-1">Contact</h1>
+                    <p class="is-size-6">For inquiries, use:</p>
+                    <h2 class="subtitle is-4"><a href="mailto:tcrosa27@gmail.com">tcrosa27@gmail.com</a></h2>
+                </div>
+                <div class="column is-size-4">
+                    <h1 class="title is-1">Social</h1>
+                    <p><a target="_blank" href="https://github.com/rosaqq">&#9654; GitHub</a></p>
+                    <p><a target="_blank" href="https://www.linkedin.com/in/tgcr/">&#9654; LinkedIn</a></p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
