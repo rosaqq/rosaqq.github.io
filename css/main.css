@@ -254,17 +254,6 @@ strong {
 .message.is-dark .message-body {
   border-color: #363636;
 }
-.message.is-success {
-  background-color: #effaf3;
-}
-.message.is-success .message-header {
-  background-color: #48c774;
-  color: #fff;
-}
-.message.is-success .message-body {
-  border-color: #48c774;
-  color: #257942;
-}
 
 .message-header {
   align-items: center;
@@ -325,32 +314,6 @@ strong {
     color: #fff;
   }
 }
-.navbar.is-success {
-  background-color: #48c774;
-  color: #fff;
-}
-.navbar.is-success .navbar-brand > .navbar-item {
-  color: #fff;
-}
-.navbar.is-success .navbar-brand > a.navbar-item:focus, .navbar.is-success .navbar-brand > a.navbar-item:hover {
-  background-color: #3abb67;
-  color: #fff;
-}
-.navbar.is-success .navbar-burger {
-  color: #fff;
-}
-@media screen and (min-width: 1024px) {
-  .navbar.is-success .navbar-start > .navbar-item,
-.navbar.is-success .navbar-end > .navbar-item {
-    color: #fff;
-  }
-  .navbar.is-success .navbar-start > a.navbar-item:focus, .navbar.is-success .navbar-start > a.navbar-item:hover,
-.navbar.is-success .navbar-end > a.navbar-item:focus,
-.navbar.is-success .navbar-end > a.navbar-item:hover {
-    background-color: #3abb67;
-    color: #fff;
-  }
-}
 .navbar > .container {
   align-items: stretch;
   display: flex;
@@ -365,11 +328,6 @@ strong {
 }
 .navbar.is-fixed-top {
   top: 0;
-}
-
-html.has-navbar-fixed-top,
-body.has-navbar-fixed-top {
-  padding-top: 3.25rem;
 }
 
 .navbar-brand {
@@ -606,36 +564,6 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
   background-color: #292929;
   color: #fff;
 }
-.hero.is-success {
-  background-color: #48c774;
-  color: #fff;
-}
-.hero.is-success a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current),
-.hero.is-success strong {
-  color: inherit;
-}
-.hero.is-success .title {
-  color: #fff;
-}
-.hero.is-success .subtitle {
-  color: rgba(255, 255, 255, 0.9);
-}
-.hero.is-success .subtitle a:not(.button),
-.hero.is-success .subtitle strong {
-  color: #fff;
-}
-@media screen and (max-width: 1023px) {
-  .hero.is-success .navbar-menu {
-    background-color: #48c774;
-  }
-}
-.hero.is-success .navbar-item {
-  color: rgba(255, 255, 255, 0.7);
-}
-.hero.is-success a.navbar-item:hover {
-  background-color: #3abb67;
-  color: #fff;
-}
  .hero.is-fullheight .hero-body {
   align-items: center;
   display: flex;
@@ -662,11 +590,12 @@ html {
   scroll-behavior: smooth;
 }
 
-#contact, #prog, #webdev {
+#contact, #projects, #webdev {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 3.25rem;
   text-shadow: 1px 1px 1px #000, 3px 3px 5px #000003;
 }
 
@@ -674,8 +603,8 @@ html {
   background-image: url(../img/coffee.jpg);
 }
 
-#prog {
-  background-image: url(../img/coffee.jpg);
+#projects {
+  background-image: url(../img/printer.jpg);
   border-top: 10px solid yellow;
 }
 
