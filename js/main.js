@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             });
         });
+        console.log($navbarBurgers);
     }
 
 });
