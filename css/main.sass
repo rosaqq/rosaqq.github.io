@@ -18,19 +18,24 @@ html
 
   text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3)
 
+#intro
+  @extend %parallax
+  background-image: url(../img/ponte.jpg)
+
 #webdev
   @extend %parallax
   background-image: url(../img/coffee.jpg)
+  border-top: 10px solid #81b214
 
 #projects
   @extend %parallax
   background-image: url(../img/printer.jpg)
-  border-top: 10px solid #81b214
+  border-top: 10px solid #ffcc29
 
 #contact
   @extend %parallax
   background-image: url(../img/desk.jpg)
-  border-top: 10px solid #ffcc29
+  border-top: 10px solid #f58634
 
 .message
   text-shadow: none
@@ -41,3 +46,12 @@ html
 
 .tech-list
   list-style: disc
+  @extend .is-size-4
+  @extend .pl-6
+
+hr.content-divider
+  margin-left: 25px
+  max-width: 75px
+
+.py-8
+  padding: 8rem 0 !important
